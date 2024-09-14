@@ -101,5 +101,43 @@ A **MAC (Media Access Control) address** is a unique identifier given to a devic
 **Q**: *What's the difference between a MAC address and an IP address?*  
 **A**: A MAC address is a hardware identifier unique to a device, used on local networks. An IP address is assigned to the device to identify it across the internet.
 
+---
+# What is a Proxy in Computer Networking?
+
+A **proxy** in computer networking is a server that acts as an intermediary between a user's device and the internet. When you use a proxy server, your internet traffic is routed through it before reaching the website or service you're trying to access. This can help with functions like security, privacy, or bypassing restrictions.
+
+### How Does a Proxy Work?
+
+1. You send a request (like accessing a website) to the proxy server.
+2. The proxy forwards the request to the destination website.
+3. The website responds to the proxy, which then sends the response back to you.
+
+In this way, the proxy acts as a middleman, hiding your IP address and making it seem like the request came from the proxy instead of your actual device.
+
+### Uses of a Proxy:
+
+1. **Privacy**: It hides your IP address, providing some level of anonymity online.
+2. **Security**: Can filter and block malicious content.
+3. **Access Control**: Restricts access to certain websites or content.
+4. **Bypassing Restrictions**: Can be used to bypass geo-restrictions or local network restrictions.
+
+---
+
+### Example Scenario (University Network):
+
+In a university, students might be restricted from accessing specific websites, like social media or streaming platforms. To enforce this, the university can set up a **proxy server**. When a student tries to access a blocked site, the proxy checks the requested website against a list of restricted sites. If it’s on the list, the proxy denies access, showing a message like "Access Denied."
+
+Conversely, some students might try to bypass the university’s restrictions by setting up their own **proxy** or using a public one. By doing this, their traffic would be routed through that external proxy, making it appear like they’re accessing the site from outside the university network, allowing them to access restricted content.
+
+---
+
+### Interview-Friendly Explanation:
+
+**Q**: _What is a proxy in computer networking, and how is it used?_  
+**A**: A proxy is a server that sits between a user’s device and the internet. It forwards requests to websites and services on behalf of the user, often hiding their IP address. Proxies can be used for privacy, security, or controlling access. For example, in universities, a proxy server may block access to certain websites by checking all traffic and denying requests for restricted sites.
+
+---
+
+
 
 
