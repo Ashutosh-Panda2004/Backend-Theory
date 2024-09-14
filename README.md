@@ -57,3 +57,49 @@ On the other hand, your **public IP** is like your **formal name (Ashutosh Panda
 
 In simple terms, **public IP** is used to communicate with the world, and **private IP** is used to communicate with devices in your home or office network.
 
+---
+
+# What is a MAC Address?
+
+A **MAC (Media Access Control) address** is a unique identifier given to a device's network card, allowing it to communicate on a local network like Wi-Fi or Ethernet. It is a hardware address that is hardcoded into your device's network card by the manufacturer.
+
+### Key Points:
+
+1. **Format**:
+   - A MAC address is a 12-character code, often separated by colons or hyphens.
+   - Example: `00:1A:2B:3C:4D:5E` or `00-1A-2B-3C-4D-5E`.
+
+2. **Purpose**:
+   - It is used to identify devices on a local network.
+   - Works on the **Data Link Layer (Layer 2)** of the OSI model.
+
+3. **Uniqueness**:
+   - Every MAC address is supposed to be unique to each device.
+
+4. **Types of MAC Addresses**:
+   - **Unicast MAC**: For a single device.
+   - **Multicast MAC**: For multiple devices.
+   - **Broadcast MAC**: For all devices in the network.
+
+5. **Static Nature**:
+   - Unlike an IP address, a MAC address is usually **permanent** and does not change.
+
+6. **Difference Between MAC and IP Address**:
+   - **MAC Address**: Identifies a device on a local network.
+   - **IP Address**: Identifies a device across the internet.
+
+7. **Security**:
+   - MAC addresses can be **spoofed** (faked) to pretend to be another device.
+
+8. **Uses**:
+   - MAC addresses are used in **Ethernet, Wi-Fi, and Bluetooth** to manage how devices talk to each other.
+
+---
+
+### Example Interview Question:
+
+**Q**: *What's the difference between a MAC address and an IP address?*  
+**A**: A MAC address is a hardware identifier unique to a device, used on local networks. An IP address is assigned to the device to identify it across the internet.
+
+
+
