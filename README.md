@@ -521,7 +521,7 @@ The **TCP/IP model** (Transmission Control Protocol/Internet Protocol) is the fo
 ---
 
 ## TCP/IP Layers and Their Functions
-![TCP/IP image](https://example.com/img-1.png)
+![TCP/IP image](./images/img-1.png)
 
 
 ### 1. Network Access Layer
