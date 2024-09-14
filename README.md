@@ -248,6 +248,82 @@ A **VPN (Virtual Private Network)** is a service that creates a secure, encrypte
 
 ---
 
+# Reverse Proxy: Your Invisible Guardian
+
+A **reverse proxy** is a server that sits between client devices and the backend servers they want to access. Unlike a traditional proxy, which acts on behalf of the client, a reverse proxy acts on behalf of the server. It manages and directs incoming client requests to one or more backend servers.
+
+Technically, **Reverse Proxy** is set up by the server in such a way that all the requests before reaching the backend server, goes through the **Reverse Proxy server** which further verifies that there is no malicious things in the request and it also verifies that whether the person has been sending multiple requests in a specific time period and if the request passes all the verification tests after then it is sent to the backend server, **So basically we use Reverse Proxy mainly for Rate Limiting**.
+
+## How a Reverse Proxy Works
+
+1. **Client Request**:
+   - A client makes a request to access a website or service.
+
+2. **Reverse Proxy Handling**:
+   - The request is first directed to the reverse proxy server instead of directly to the backend server.
+
+3. **Request Forwarding**:
+   - The reverse proxy evaluates the request and forwards it to the appropriate backend server.
+
+4. **Backend Server Response**:
+   - The backend server processes the request and sends the response back to the reverse proxy.
+
+5. **Response to Client**:
+   - The reverse proxy then sends the response back to the client.
+
+## Benefits of Using a Reverse Proxy
+
+1. **Load Balancing**:
+   - Distributes incoming traffic across multiple backend servers to balance the load and ensure no single server is overwhelmed.
+
+2. **Enhanced Security**:
+   - Acts as an additional layer of security by hiding the backend server’s IP addresses and protecting against direct attacks.
+
+3. **Caching**:
+   - Caches frequently requested content to improve performance and reduce the load on backend servers.
+
+4. **SSL Termination**:
+   - Handles SSL/TLS encryption and decryption, offloading this resource-intensive task from the backend servers.
+
+5. **Compression**:
+   - Compresses outgoing data to reduce bandwidth usage and improve load times for clients.
+
+6. **Request Filtering**:
+   - Can filter and block harmful or unwanted requests before they reach the backend servers.
+
+7. **Application Firewall**:
+   - Provides additional protection by filtering requests based on specific rules and security policies.
+
+## Common Use Cases
+
+- **Web Hosting**: Directs requests to multiple web servers based on load, user location, or content type.
+- **API Management**: Routes API requests to different services and handles authentication and rate limiting.
+- **Content Delivery**: Caches and delivers static content to improve performance and reduce server load.
+
+## Interview-Friendly Explanation
+
+**Q**: _What is a reverse proxy, and what are its benefits?_  
+**A**: A reverse proxy is a server that sits between clients and backend servers. It forwards client requests to the appropriate backend server and then sends the server’s response back to the client. The benefits include load balancing (distributing traffic across multiple servers), enhanced security (hiding backend server IPs), caching (improving performance), SSL termination (handling encryption), and request filtering (protecting against harmful requests).
+
+---
+
+# Normal Proxy vs. Reverse Proxy
+
+## Normal Proxy
+
+- **Who It Represents**: The **client** (like your web browser).
+- **Purpose**: Hides the client's IP address and makes requests to websites on behalf of the client.
+- **Use Case**: Useful for privacy or accessing blocked content.
+
+## Reverse Proxy
+
+- **Who It Represents**: The **server** (like a website or application server).
+- **Purpose**: Hides the server's IP address and handles requests from clients, then forwards them to backend servers.
+- **Use Case**: Useful for load balancing, security, and caching on the server side.
+
+---
+
+In summary, a normal proxy acts on behalf of the client, while a reverse proxy acts on behalf of the server.
 
 
 
