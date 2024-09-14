@@ -19,3 +19,36 @@
 
 **Note**:  
 The transmission from your device to the nearest hub or tower is often a combination of radio waves (for wireless communication) and electrical signals (for wired connections). However, the routing and data delivery between servers and networks mainly happen over high-speed fiber optic cables, which use light pulses to transmit data rapidly over long distances.
+
+---
+
+# What is an IP Address?
+
+An **IP address** is like the address of your device on the internet. It’s assigned by your **Internet Service Provider (ISP)** whenever your device connects to the internet. This allows your device to communicate with websites, services, and other devices.
+
+There are two main types of IP addresses:
+
+1. **IPv4 (Internet Protocol Version 4)**:
+   - This is the older version and looks something like this: `192.168.1.1`.
+   - It uses 32-bit numbers, which means there are about 4.3 billion unique addresses available.
+   - However, because so many devices are connected to the internet today, we started running out of IPv4 addresses.
+
+2. **IPv6 (Internet Protocol Version 6)**:
+   - This is the newer version and looks like this: `2001:0db8:85a3:0000:0000:8a2e:0370:7334`.
+   - It uses 128-bit numbers, which provides **trillions** of unique addresses, solving the shortage problem.
+   - This is why IPv6 was created—to ensure there are enough addresses for all the devices connecting to the internet now and in the future.
+
+---
+
+## Difference Between Public and Private IPs
+
+- **Public IP Address**:  
+  A public IP is the address that is assigned to your device by your ISP and is visible on the internet. When you visit a website, your public IP is used to communicate with servers across the web.
+
+- **Private IP Address**:  
+  A private IP is assigned to devices within your local network (like your home Wi-Fi). For example, your computer, phone, and smart devices might have private IP addresses like `192.168.0.5` or `10.0.0.2`. These addresses are not visible to the outside world and are used only for communication within your home network.
+
+---
+
+In simple terms, **public IP** is used to communicate with the world, and **private IP** is used to communicate with devices in your home or office network.
+
