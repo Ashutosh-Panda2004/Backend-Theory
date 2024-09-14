@@ -49,7 +49,10 @@ There are two main types of IP addresses:
   A private IP is assigned to devices within your local network (like your home Wi-Fi). For example, your computer, phone, and smart devices might have private IP addresses like `192.168.0.5` or `10.0.0.2`. These addresses are not visible to the outside world and are used only for communication within your home network.
 
 
-Think of your **private IP** like a **nickname** that your family or close friends use at home—it's only used within your private circle. On the other hand, your **public IP** is like your **formal name (Ashutosh Panda)** that is used outside, like at school or in public spaces, to identify you to the world.
+Think of your **private IP** like a **nickname** that your family or close friends use at home—it's only used within your private circle. 
+
+On the other hand, your **public IP** is like your **formal name (Zack Walden)** that is used outside, like at school or in public spaces, to identify you to the world.
+
 ---
 
 In simple terms, **public IP** is used to communicate with the world, and **private IP** is used to communicate with devices in your home or office network.
