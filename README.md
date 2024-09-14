@@ -558,6 +558,8 @@ The **TCP/IP model** (Transmission Control Protocol/Internet Protocol) is the fo
 - **Key Protocols**:
   - **TCP (Transmission Control Protocol)**: Reliable, connection-based protocol that guarantees data arrives intact.
   - **UDP (User Datagram Protocol)**: Fast but less reliable; used for real-time applications like video calls and gaming.
+ 
+![TCP/IP image](./images/img-2.png)
 
 #### Transmission Control Protocol (TCP)
 - **Features**:
