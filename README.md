@@ -24,7 +24,7 @@ The transmission from your device to the nearest hub or tower is often a combina
 
 # What is an IP Address?
 
-An **IP address** is like the address of your device on the internet. It’s assigned by your **Internet Service Provider (ISP)** whenever your device connects to the internet. This allows your device to communicate with websites, services, and other devices.
+An **IP address** is like the address of your device on the internet. It’s assigned by your **Internet Service Provider (ISP)** whenever your device connects to the internet. This allows your device to communicate with websites, services, and other devices. The assignment of IP address is based on a protocol called DHCP (Dynamic Host Configuration Protocol). 
 
 There are two main types of IP addresses:
 
