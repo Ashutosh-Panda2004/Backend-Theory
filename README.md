@@ -138,6 +138,54 @@ Conversely, some students might try to bypass the university’s restrictions by
 
 ---
 
+# What is a VPN?
+
+A **VPN (Virtual Private Network)** is a service that creates a secure, encrypted connection between your device and the internet. It routes your internet traffic through a VPN server, which hides your IP address and encrypts your data, making it unreadable to outsiders.
+
+### Key Points:
+
+1. **Encryption**:
+   - VPNs encrypt your data, which protects your information from being read by your Internet Service Provider (ISP), government agencies, or any third parties.
+
+2. **Privacy**:
+   - By masking your IP address and encrypting your data, VPNs help maintain your online privacy and anonymity.
+
+3. **Secure Access**:
+   - VPNs allow you to securely access restricted or geo-blocked content by making it appear as though you are accessing the internet from a different location.
+
+4. **Protection on Public Networks**:
+   - VPNs are particularly useful on public Wi-Fi networks, where they protect your data from potential interception by hackers.
+
+---
+
+## Difference Between VPN and Proxy
+
+1. **Encryption**:
+   - **VPN**: Encrypts your internet traffic, making it secure from eavesdroppers, including your ISP and government agencies.
+   - **Proxy**: Does not encrypt your traffic. Your data is visible to your ISP and other entities.
+
+2. **Privacy**:
+   - **VPN**: Provides enhanced privacy by hiding your IP address and encrypting your data.
+   - **Proxy**: Hides your IP address but does not provide encryption. Your data can still be intercepted and read.
+
+3. **Scope of Protection**:
+   - **VPN**: Secures all your internet traffic, regardless of the application or website you are using.
+   - **Proxy**: Typically only affects the traffic of specific applications or browsers configured to use the proxy.
+
+4. **Usage**:
+   - **VPN**: Suitable for comprehensive privacy and security, particularly when using public Wi-Fi or accessing sensitive information.
+   - **Proxy**: Often used for bypassing content restrictions or accessing blocked websites, but not suitable for secure, encrypted communication.
+
+---
+
+### Interview-Friendly Explanation:
+
+**Q**: _What is a VPN, and how does it differ from a proxy?_  
+**A**: A VPN (Virtual Private Network) creates a secure, encrypted connection between your device and the internet, protecting your data from being read by your ISP or third parties. It also hides your IP address and allows you to access restricted content securely. In contrast, a proxy server acts as an intermediary that hides your IP address but does not encrypt your traffic, meaning your data can still be accessed by your ISP or other entities.
+
+---
+
+
 
 
 
