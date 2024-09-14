@@ -51,7 +51,7 @@ There are two main types of IP addresses:
 
 Think of your **private IP** like a **nickname** that your family or close friends use at home—it's only used within your private circle. 
 
-On the other hand, your **public IP** is like your **formal name (Zack Walden)** that is used outside, like at school or in public spaces, to identify you to the world.
+On the other hand, your **public IP** is like your **formal name (Ashutosh Panda)** that is used outside, like at school or in public spaces, to identify you to the world.
 
 ---
 
