@@ -454,7 +454,7 @@ TCP/IP is structured into **four layers**, each with specific functions:
 2. **Transport Layer**:
    - The transport layer manages how data is transmitted between devices.
    - The two main protocols here are **TCP** (Transmission Control Protocol) and **UDP** (User Datagram Protocol).
-   - **TCP** is used for reliable, ordered, and error-checked delivery of data (e.g., sending an email or loading a webpage).
+   - **TCP** is connection oriented protocol used for reliable, ordered, and error-checked delivery of data (e.g., sending an email or loading a webpage).
    - **UDP** is used for fast, connectionless transmission where speed is more important than reliability (e.g., live streaming or online gaming).
    
 3. **Internet Layer**:
